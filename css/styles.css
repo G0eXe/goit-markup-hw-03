@@ -33,6 +33,13 @@ img {
   font-style: normal;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* =============== HEADER ===============  */
 
 .header {
@@ -42,11 +49,7 @@ img {
 }
 
 .header .container {
-  width: 1200px;
   height: 80px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 
   display: flex;
   align-items: center;
@@ -141,20 +144,11 @@ img {
 /* ============== HERO ================= */
 
 .hero {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
   background: #2f303a;
 }
 
 .hero .container {
-  width: 1200px;
   height: 600px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 
   display: flex;
   align-items: center;
