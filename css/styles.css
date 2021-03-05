@@ -2,6 +2,25 @@
   --main-font: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
@@ -14,35 +33,39 @@
   font-style: normal;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
+/* =============== HEADER ===============  */
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
-ul,
-ol {
-  margin: 0;
-  padding: 0;
+.header .container {
+  display: flex;
+  align-items: center;
 }
 
-img {
-  display: block;
+.container {
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-/* == HEADER ==  */
+.nav {
+  display: flex;
+  align-items: center;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-
   letter-spacing: 0.03em;
+  margin-right: 90px;
 
   color: #2196f3;
 }
@@ -53,6 +76,15 @@ img {
 
 .nav-list .link.current {
   color: #2196f3;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .nav-link {
@@ -76,8 +108,14 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: #757575;
+  margin-right: 50px;
+}
+
+.contacts-header-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .header-mail-link:hover,
@@ -100,12 +138,11 @@ img {
   color: #2196f3;
 }
 
-/* == END HEADER == */
+/* ============== END HEADER ============== */
 
-/* == HERO == */
+/* ============== HERO ================= */
 
 .hero {
-  /* position: absolute; */
   width: 1600px;
   height: 600px;
   left: 0px;
@@ -154,9 +191,9 @@ img {
   color: #ffffff;
 }
 
-/* == END HERO == */
+/* =============== END HERO ================ */
 
-/* == FEATURES == */
+/* =============== FEATURES ================ */
 
 .features-list {
   display: flex;
@@ -216,9 +253,9 @@ img {
   top: 774px;
 }
 
-/* == END FEATURES == */
+/* ============= END FEATURES ============== */
 
-/* == WHAT WE ARE DOING == */
+/* ========== WHAT WE ARE DOING ============ */
 
 .we-doing {
   /* position: absolute; */
@@ -267,9 +304,9 @@ img {
   top: 1061px;
 }
 
-/* == END WHAT WE ARE DOING == */
+/* ========= END WHAT WE ARE DOING ========= */
 
-/* == TEAM == */
+/* =============== TEAM ================= */
 
 .team {
   /* position: absolute; */
@@ -421,9 +458,9 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-/* == END TEAM == */
+/* =============== END TEAM =============== */
 
-/* == PORTFOLIO == */
+/* ============== PORTFOLIO =============== */
 
 .visually-hidden {
   position: absolute;
@@ -587,7 +624,7 @@ img {
   color: #ffffff;
 }
 
-/* == PORTFOLIO EXAMPLES== */
+/* =========== PORTFOLIO EXAMPLES ========== */
 
 .examples-title {
   font-family: var(--main-font);
@@ -719,9 +756,9 @@ img {
   box-sizing: border-box;
 }
 
-/* == END PORTFOLIO == */
+/* =========== END PORTFOLIO ============ */
 
-/* == FOOTER == */
+/* ============== FOOTER ================ */
 
 .footer {
   position: absolute;
@@ -780,4 +817,4 @@ img {
   color: #2196f3;
 }
 
-/* == END FOOTER == */
+/* ============= END FOOTER =============== */
