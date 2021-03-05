@@ -501,12 +501,16 @@ img {
   overflow: hidden;
 }
 
-.portfolio {
-  position: absolute;
-  width: 1170px;
+.portfolio .container {
+  width: 1200px;
   height: 1360px;
-  left: 215px;
-  top: 174px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 94px;
+
+  display: flex;
+  align-items: center;
 }
 
 /* == PORTFOLIO MENU == */
@@ -530,6 +534,8 @@ img {
 
   color: #212121;
 }
+}
+ 
 
 .portfolio-button1:hover,
 .portfolio-button1:focus {
