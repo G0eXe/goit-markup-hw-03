@@ -19,6 +19,7 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .link {
@@ -493,7 +494,9 @@ img {
 /* =============== END TEAM =============== */
 
 /* ============== PORTFOLIO =============== */
+/* =========== PORFOLIO BUTTONS =========== */
 
+/* ============ PORTFOLIO CARDS ============ */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -514,164 +517,28 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 94px;
-
-  display: flex;
-  align-items: center;
 }
 
-/* == PORTFOLIO MENU == */
+.card-set {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 
-.portfolio-button1 {
-  position: absolute;
-  width: 73px;
-  height: 38px;
-  left: 495px;
-  top: 174px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-
-.portfolio-button1:hover,
-.portfolio-button1:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-}
-
-.portfolio-button2 {
-  position: absolute;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-
-.portfolio-button2:hover,
-.portfolio-button2:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-}
-
-.portfolio-button3 {
-  position: absolute;
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-
-.portfolio-button3:hover,
-.portfolio-button3:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-}
-
-.portfolio-button4 {
-  position: absolute;
-  width: 103px;
-  height: 38px;
-  left: 865px;
-  top: 174px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-
-.portfolio-button4:hover,
-.portfolio-button4:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-}
-
-.portfolio-button5 {
-  position: absolute;
-  width: 130px;
-  height: 38px;
-  left: 976px;
-  top: 174px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-  cursor: pointer;
-
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-
-.portfolio-button5:hover,
-.portfolio-button5:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-}
-
-/* =========== PORTFOLIO EXAMPLES ========== */
-
-.examples-list {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
+
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.examples-title {
+.card-set > .card-set-item {
+  flex-basis: calc(100% / 3 - 30px);
+
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.card-heading {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 18px;
@@ -682,7 +549,7 @@ img {
   color: #212121;
 }
 
-.examples-discription {
+.card-text {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 16px;
@@ -693,148 +560,12 @@ img {
   color: #757575;
 }
 
-.examples-item1 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-
-  flex-basis: calc(100% / 9 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
+.card-content {
+  padding: 20px 24px;
 }
 
-.examples-item2 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 262px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-
-  flex-basis: calc(100% / 9 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.examples-item3 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 262px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-
-  flex-basis: calc(100% / 9 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.examples-item4 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 696px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-
-  flex-basis: calc(100% / 9 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.examples-item5 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 696px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-
-  flex-basis: calc(100% / 9 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.examples-item6 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 696px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-
-  flex-basis: calc(100% / 9 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.examples-item7 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 1130px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-
-  flex-basis: calc(100% / 9 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.examples-item8 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 1130px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-
-  flex-basis: calc(100% / 9 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.examples-item9 {
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 1130px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-
-  flex-basis: calc(100% / 9 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
+.card-text {
+  margin-top: 5px;
 }
 
 /* =========== END PORTFOLIO ============ */
