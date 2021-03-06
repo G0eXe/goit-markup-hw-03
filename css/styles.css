@@ -503,6 +503,12 @@ img {
 /* =============== END TEAM =============== */
 
 /* ============== PORTFOLIO =============== */
+
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* =========== PORFOLIO BUTTONS =========== */
 
 .filter-set {
@@ -510,8 +516,7 @@ img {
   justify-content: center;
   align-items: center;
 
-  padding-top: 94px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-item:not(:last-child) {
@@ -567,8 +572,6 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-
-  padding-bottom: 94px;
 }
 
 .card-set {
