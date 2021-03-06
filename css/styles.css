@@ -143,6 +143,8 @@ img {
 
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero .container {
@@ -151,8 +153,6 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 200px;
-  padding-bottom: 200px;
 
   display: flex;
   align-items: center;
@@ -203,14 +203,17 @@ img {
 
 /* =============== FEATURES ================ */
 
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .features .container {
   width: 1200px;
   /* height: 100px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .features-list {
@@ -256,13 +259,17 @@ img {
 
 /* ========== WHAT WE ARE DOING ============ */
 
+.we-doing {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .we-doing .container {
   width: 1200px;
   /* height: 386px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px;
 }
 
 .we-doing-title {
@@ -319,6 +326,8 @@ img {
 
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team .container {
@@ -327,8 +336,6 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 
   display: flex;
   align-items: center;
@@ -619,6 +626,8 @@ img {
 
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .container {
@@ -627,8 +636,6 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .logo-text-footer {
