@@ -44,7 +44,7 @@ img {
 
 .header .container {
   width: 1200px;
-  height: 80px;
+  /* height: 80px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -147,12 +147,12 @@ img {
 
 .hero .container {
   width: 1200px;
-  height: 600px;
+  /* height: 600px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 200px;
-  margin-bottom: 94px;
+  padding-bottom: 200px;
 
   display: flex;
   align-items: center;
@@ -205,11 +205,12 @@ img {
 
 .features .container {
   width: 1200px;
-  height: 100px;
+  /* height: 100px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-list {
@@ -257,11 +258,11 @@ img {
 
 .we-doing .container {
   width: 1200px;
-  height: 386px;
+  /* height: 386px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .we-doing-title {
@@ -322,11 +323,12 @@ img {
 
 .team .container {
   width: 1200px;
-  height: 648px;
+  /* height: 648px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 94px;
+  padding-bottom: 94px;
 
   display: flex;
   align-items: center;
