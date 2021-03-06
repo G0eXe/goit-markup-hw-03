@@ -580,6 +580,12 @@ img {
   margin-top: 30px;
 }
 
+.card-set-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
 .card-heading {
   font-family: var(--main-font);
   font-weight: bold;
