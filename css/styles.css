@@ -496,6 +496,48 @@ img {
 /* ============== PORTFOLIO =============== */
 /* =========== PORFOLIO BUTTONS =========== */
 
+.filter-set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 94px;
+  margin-bottom: 34px;
+}
+
+.filter-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.filter-item-button {
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+  border: 1px solid #fff;
+
+  padding: 6px 22px;
+}
+
+.filter-item-button:hover,
+.filter-item-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.filter-item-text {
+}
+
 /* ============ PORTFOLIO CARDS ============ */
 .visually-hidden {
   position: absolute;
