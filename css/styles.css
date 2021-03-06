@@ -579,12 +579,6 @@ img {
   margin-top: 30px;
 }
 
-.card-set-item {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-}
-
 .card-heading {
   font-family: var(--main-font);
   font-weight: bold;
@@ -608,6 +602,10 @@ img {
 }
 
 .card-content {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-top: none;
   padding: 20px 24px;
 }
 
